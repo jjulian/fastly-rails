@@ -15,6 +15,7 @@ module FastlyRails
           if callback = FastlyRails.configuration.after_purge
             callback.call(key, url)
           end
+        end
       end
     end
 
